@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Fonts used -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Protest+Revolution&family=Titan+One&display=swap" rel="stylesheet">
+
+    <!-- Axios request -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>AskNico</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="navTitle">
+            <div class="navLogo">
+                <img src="images/logo.jpg">
+            </div>
+            <h1>NicoDev</h1>
+        </div>
+        <div class="menuBtn">
+            <i class="fa-solid fa-bars menuIcon"></i>
+        </div>
+        <div class="navLinks">
+            <a>
+                <li>Stay tuned for more updates</li>
+            </a>
+            <a>
+                <li>Version: 1.0.0</li>
+            </a>
+            <a href="https://www.facebook.com/codebuddySolutions">
+                <li class="tools">Follow us</li>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <canvas></canvas>
+        <div class="cleo">
+            <div class="cleoTitle">
+                <h1></h1>
+            </div>
+            <div class="cleoBody">
+                <div class="alignTitle">
+                    <h3>Chat with Nico</h3>
+                </div>
+                <div class="cleoContents"></div>
+                <div class="inputImageContainer">
+                    <div class="inputImage">
+                        <p>Attach image:</p>
+                        <input type="file" accept="image/*" />
+                        <button onclick="clearImageInput()">Clear</button>
+                    </div>
+                </div>
+                <div class="inputField">
+                    <div class="addImage">
+                        <i class="fa-solid imgBtn fa-image "></i>
+                    </div>
+                    <input class="prompt" type="text" placeholder="Enter your questions...">
+                    <button class="sendPrompt">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+ <div class="slideText">
+<p>
+<marquee>You may only upload 1mb image file size or below for better experience. Large file size may take longer time to load.</marquee>
+</p>
+</div>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+    <script src="script.js"></script>
+    <script src="rymd.js"></script>
+</body>
+
+</html>
