@@ -1,16 +1,17 @@
 {
-  "name": "nicoai-web",
+  "name": "nico-ai",
   "version": "1.0.0",
-  "description": "NicoAi web with interactive starry animation and AI functionalities.",
-  "main": "cleo.html",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
   "scripts": {
-    "start": "live-server --port=8080",
-    "build": "echo 'No build script defined yet'"
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Amiel Nico Diosa",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "live-server": "^1.2.1"
+  "license": "ISC",
+  "dependencies": {
+    "assemblyai": "^1.0.0"  // Adjust this version if needed
   }
 }
