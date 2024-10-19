@@ -1,17 +1,20 @@
 {
-  "name": "nico-ai",
+  "name": "Nico-Ai",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ask me everything",
   "main": "script.js",
-  "type": "module",
   "scripts": {
     "start": "node script.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "keywords": [],
   "author": "Amiel Nico Diosa",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "assemblyai": "^1.0.0"  // Adjust this version if needed
+    "express": "^4.17.1",
+    "mocha": "^9.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "sinon": "^10.0.2"
   }
 }
